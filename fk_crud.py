@@ -13,7 +13,7 @@ db_session = Session()
 # db_session.commit()
 # db_session.close()
 
-# relationship添加--反向(转换对象的数据一定要写到数组列表里，对象类型也是)
+# relationship添加--反向(因为是一对多的关系，转换对象的数据一定要写到数组列表里)
 # item_obj = Item(name='samsung', location='korean', prince=29.99)
 # item_obj.it2us = [User(name='花花', department='人力资源')]
 # db_session.add(item_obj)
